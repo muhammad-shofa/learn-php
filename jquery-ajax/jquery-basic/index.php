@@ -13,12 +13,19 @@
     <button id="button">Button</button>
     <div class="box"></div>
     <br>
+    <br>
     <h2>Callback Function</h2>
     <button id="button-callback">Button Callback</button>
     <div class="box-1"></div>
     <div class="box-callback">
         <p>Callback Function</p>
     </div>
+    <br>
+    <br>
+    <h2>Take Value using text()</h2>
+    <button id="button-take-value">Take Value</button>
+    <p id="text">Just for test</p>
+    <p id="demo-text">Tampilkan di sini : </p>
     <!-- JQuery -->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script>
@@ -33,6 +40,13 @@
                 $(".box-1").fadeIn(800, function () {
                     $(".box-callback").show();
                 })
+            })
+        });
+
+        $(document).ready(function () {
+            $("#button-take-value").click(function () {
+                let text = $("#text").text();
+                alert(text);
             })
         });
     </script>
