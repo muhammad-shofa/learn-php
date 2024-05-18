@@ -1,20 +1,33 @@
-body{
- font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
- 
-h1{
- text-align: center;
+
+h1 {
+  text-align: center;
 }
- 
-.box{
-	height: 300px;
-	width:300px;
-	background: orange;
+
+.box {
+  height: 300px;
+  width: 300px;
+  background: orange;
 }
- 
-#button{
-       padding:10px;
-       color: #fff;
-       background: #34495E;
-       border: none;
+
+#button {
+  padding: 10px;
+  color: #fff;
+  background: #34495e;
+  border: none;
+}
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: none;
+}
+.box-callback {
+  width: 200px;
+  height: 200px;
+  background-color: salmon;
+  color: black;
+  display: none;
 }
